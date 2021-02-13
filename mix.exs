@@ -19,7 +19,8 @@ defmodule KaisenDocumentation.MixProject do
         extra_section: "Guide",
         extras: [
           "README.md",
-          "start/links.md": [ title: "Official Kaisen Linux links"]
+          "start/links.md": [ title: "Official Kaisen Linux links"],
+          "start/why.md": [ title: "Why use Kaisen Linux ?"]
 
         ],
         groups_for_extras: [

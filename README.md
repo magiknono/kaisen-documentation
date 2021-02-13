@@ -1,21 +1,13 @@
-# KaisenDocumentation
+# Kaisen Documentation
 
 **TODO: Add description**
 
-## Installation
+## TO DO:
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `kaisen_documentation` to your list of dependencies in `mix.exs`:
+add picture
+add new links in md
+format text nicely
+rephrase if needed
 
-```elixir
-def deps do
-  [
-    {:kaisen_documentation, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/kaisen_documentation](https://hexdocs.pm/kaisen_documentation).
-
+## version
+start 13022021
