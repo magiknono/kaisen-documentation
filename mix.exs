@@ -21,7 +21,8 @@ defmodule KaisenDocumentation.MixProject do
           "README.md",
           "start/links.md": [ title: "Official Kaisen Linux links"],
           "start/why.md": [ title: "Why use Kaisen Linux ?"],
-          "start/usb.md": [ title: "USB creation"]
+          "start/usb.md": [ title: "USB creation"],
+          "start/hardware.md": [ title: "Hardware requirements"]
 
         ],
         groups_for_extras: [
