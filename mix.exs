@@ -20,7 +20,8 @@ defmodule KaisenDocumentation.MixProject do
         extras: [
           "README.md",
           "start/links.md": [ title: "Official Kaisen Linux links"],
-          "start/why.md": [ title: "Why use Kaisen Linux ?"]
+          "start/why.md": [ title: "Why use Kaisen Linux ?"],
+          "start/usb.md": [ title: "USB creation"]
 
         ],
         groups_for_extras: [
