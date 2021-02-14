@@ -27,7 +27,7 @@ defmodule KaisenDocumentation.MixProject do
           "start/install.md": [ title: "Install OS"],
           "start/virtualisation.md": [ title: "Using Virtualisation"],
           "start/menu.md": [ title: "Menu and Tools overview"],
-          "tools/tools.md": [ title: "Tools : Packages"]
+          "tools/tools.md": [ title: "Tools"]
 
         ],
         groups_for_extras: [
