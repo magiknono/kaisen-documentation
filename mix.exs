@@ -26,6 +26,7 @@ defmodule KaisenDocumentation.MixProject do
           "start/live.md": [ title: "Live informations"],
           "start/install.md": [ title: "Install OS"],
           "start/virtualisation.md": [ title: "Using Virtualisation"],
+          "start/menu.md": [ title: "Menu and Tools overview"]
 
         ],
         groups_for_extras: [
