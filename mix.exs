@@ -25,6 +25,7 @@ defmodule KaisenDocumentation.MixProject do
           "start/hardware.md": [ title: "Hardware requirements"],
           "start/live.md": [ title: "Live informations"],
           "start/install.md": [ title: "Install OS"],
+          "start/virtualisation.md": [ title: "Using Virtualisation"],
 
         ],
         groups_for_extras: [
