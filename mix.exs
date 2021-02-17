@@ -28,7 +28,8 @@ defmodule KaisenDocumentation.MixProject do
           "start/virtualisation.md": [ title: "Using Virtualisation"],
           "start/menu.md": [ title: "Menu and Tools overview"],
           "tools/tools.md": [ title: "Tools"],
-          "tools/packages.md": [ title: "Packages"]
+          "tools/packages.md": [ title: "Packages"],
+          "tools/metapackages.md": [ title: "Metapackages"]
 
         ],
         groups_for_extras: [
