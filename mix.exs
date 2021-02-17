@@ -29,12 +29,14 @@ defmodule KaisenDocumentation.MixProject do
           "start/menu.md": [ title: "Menu and Tools overview"],
           "tools/tools.md": [ title: "Tools"],
           "tools/packages.md": [ title: "Packages"],
-          "tools/metapackages.md": [ title: "Metapackages"]
+          "tools/metapackages.md": [ title: "Metapackages"],
+          "tutorials/Windows-bootable-USB-key.md": [ title: "Windows bootable USB key"]
 
         ],
         groups_for_extras: [
           "START": Path.wildcard("start/*.md"),
-          "TOOLS & PACKAGES": Path.wildcard("tools/*.md")
+          "TOOLS & PACKAGES": Path.wildcard("tools/*.md"),
+          "TUTORIALS": Path.wildcard("tutorials/*.md")
 
         ],
 
