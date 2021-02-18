@@ -30,8 +30,8 @@ defmodule KaisenDocumentation.MixProject do
           "tools/tools.md": [ title: "Tools"],
           "tools/packages.md": [ title: "Packages"],
           "tools/metapackages.md": [ title: "Metapackages"],
-          "tutorials/Windows-bootable-USB-key.md": [ title: "Windows bootable USB key"]
-
+          "tutorials/Windows-bootable-USB-key.md": [ title: "Windows bootable USB key"],
+          "tutorials/Bad-sectors-analyses.md": [ title: "Bad sectors analyses"]
         ],
         groups_for_extras: [
           "START": Path.wildcard("start/*.md"),
