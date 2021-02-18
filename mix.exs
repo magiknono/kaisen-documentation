@@ -34,7 +34,8 @@ defmodule KaisenDocumentation.MixProject do
           "tutorials/Bad-sectors-analyses.md": [ title: "Bad sectors analyses"],
           "tutorials/grub-repair.md": [ title: "Repair GRUB"],
           "tutorials/terminal-shortcuts.md": [ title: "Kaisen Terminal shortcuts"],
-          "infos/licence.md": [ title: "Kaisen Linux licence"]
+          "infos/licence.md": [ title: "Kaisen Linux licence"],
+          "infos/download.md": [ title: "Kaisen Linux downloads"]
         ],
         groups_for_extras: [
           "START": Path.wildcard("start/*.md"),
