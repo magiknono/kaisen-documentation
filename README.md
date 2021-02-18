@@ -4,18 +4,17 @@
 
 **TODO:**  
 
-- Infos
 - OS Informations
 
-fix all & recheck all links
-fix checkshum ?
+fix all links & repo
+fix new checkshum ?
 
 ## done
 
-Started `start category` 
-Started `tools category`
-Started `tutorials category`
-Started `infos category`
+`start category` 
+`tools category`
+`tutorials category`
+`infos category`
 
 ## TO DO:
 
@@ -28,6 +27,10 @@ START CATEGORY :
 OTHERS CATEGORY:
 - reformatting nicely
 
+..
+- hierarchy of menu
+- sed to remove .html before anchor
+- remove header with old url
 ## version
 
 - started 13022021  
