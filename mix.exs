@@ -32,7 +32,8 @@ defmodule KaisenDocumentation.MixProject do
           "tools/metapackages.md": [ title: "Metapackages"],
           "tutorials/Windows-bootable-USB-key.md": [ title: "Windows bootable USB key"],
           "tutorials/Bad-sectors-analyses.md": [ title: "Bad sectors analyses"],
-          "tutorials/grub-repair.md": [ title: "Repair GRUB"]
+          "tutorials/grub-repair.md": [ title: "Repair GRUB"],
+          "tutorials/terminal-shortcuts.md": [ title: "Kaisen Terminal shortcuts"]
         ],
         groups_for_extras: [
           "START": Path.wildcard("start/*.md"),
