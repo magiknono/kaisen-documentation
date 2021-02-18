@@ -35,7 +35,8 @@ defmodule KaisenDocumentation.MixProject do
           "tutorials/grub-repair.md": [ title: "Repair GRUB"],
           "tutorials/terminal-shortcuts.md": [ title: "Kaisen Terminal shortcuts"],
           "infos/licence.md": [ title: "Kaisen Linux licence"],
-          "infos/download.md": [ title: "Kaisen Linux downloads"]
+          "infos/download.md": [ title: "Kaisen Linux downloads"],
+          "infos/repo.md": [ title: "Kaisen Linux repositories"]
         ],
         groups_for_extras: [
           "START": Path.wildcard("start/*.md"),
