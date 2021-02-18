@@ -36,7 +36,8 @@ defmodule KaisenDocumentation.MixProject do
           "tutorials/terminal-shortcuts.md": [ title: "Kaisen Terminal shortcuts"],
           "infos/licence.md": [ title: "Kaisen Linux licence"],
           "infos/download.md": [ title: "Kaisen Linux downloads"],
-          "infos/repo.md": [ title: "Kaisen Linux repositories"]
+          "infos/repo.md": [ title: "Kaisen Linux repositories"],
+          "infos/update.md": [ title: "Kaisen Linux updates"]
         ],
         groups_for_extras: [
           "START": Path.wildcard("start/*.md"),
