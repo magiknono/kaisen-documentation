@@ -4,16 +4,18 @@
 
 **TODO:**  
 
-- Tools (partial)
-- COntribution
-- Tutorials
 - Infos
 - OS Informations
 
+fix all & recheck all links
+fix checkshum ?
+
 ## done
 
-Started `start category` in `start` folder.
-Started `tools category` in `tools` folder
+Started `start category` 
+Started `tools category`
+Started `tutorials category`
+Started `infos category`
 
 ## TO DO:
 
