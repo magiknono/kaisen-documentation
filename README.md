@@ -27,6 +27,9 @@ START CATEGORY :
 OTHERS CATEGORY:
 - reformatting nicely
 
+PAGE why are all add services disabled by default
+email support ? link real email
+
 ..
 - hierarchy of menu
 - sed to remove .html before anchor

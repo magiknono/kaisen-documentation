@@ -38,7 +38,8 @@ defmodule KaisenDocumentation.MixProject do
           "infos/download.md": [ title: "Kaisen Linux downloads"],
           "infos/repo.md": [ title: "Kaisen Linux repositories"],
           "infos/update.md": [ title: "Kaisen Linux updates"],
-          "os/What-are-the-revisions-of-the-rolling-version.md": [ title: "Revisions of the rolling version ?"]
+          "os/What-are-the-revisions-of-the-rolling-version.md": [ title: "Revisions of the rolling version ?"],
+          "os/Why-are-all-additional-services-disabled-by-default.md": [ title: "Why are all additional services disabled by default ?"]
 
         ],
         groups_for_extras: [
