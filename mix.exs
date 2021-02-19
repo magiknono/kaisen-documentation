@@ -45,6 +45,7 @@ defmodule KaisenDocumentation.MixProject do
           "os/How-to-update-GUI-default-profile.md": [ title: "How to update GUI default profile ?"],
           "os/Informations-on-the-conky-theme.md": [ title: "Informations on the conky theme"],
           "os/Informations-on-rolling-version.md": [ title: "Informations on rolling version"],
+          "os/Why-root-account-is-disabled.md": [ title: "Why root account is disabled by default?"]
 
         ],
         groups_for_extras: [
