@@ -40,7 +40,8 @@ defmodule KaisenDocumentation.MixProject do
           "infos/update.md": [ title: "Kaisen Linux updates"],
           "os/What-are-the-revisions-of-the-rolling-version.md": [ title: "Revisions of the rolling version ?"],
           "os/Why-are-all-additional-services-disabled-by-default.md": [ title: "Why are all additional services disabled by default ?"],
-          "os/How-to-build-custom-ISO.md": [ title: "How to build custom ISO ?"]
+          "os/How-to-build-custom-ISO.md": [ title: "How to build custom ISO ?"],
+          "os/Why-no-source-on-some-packages.md": [ title: "Why no sources on some packages ?"]
 
         ],
         groups_for_extras: [
