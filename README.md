@@ -27,8 +27,10 @@ START CATEGORY :
 OTHERS CATEGORY:
 - reformatting nicely
 
-PAGE why are all add services disabled by default
+- PAGE why are all add services disabled by default
 email support ? link real email
+- PAGE build custom iso
+link to iso and repo
 
 ..
 - hierarchy of menu
