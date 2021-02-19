@@ -37,13 +37,16 @@ defmodule KaisenDocumentation.MixProject do
           "infos/licence.md": [ title: "Kaisen Linux licence"],
           "infos/download.md": [ title: "Kaisen Linux downloads"],
           "infos/repo.md": [ title: "Kaisen Linux repositories"],
-          "infos/update.md": [ title: "Kaisen Linux updates"]
+          "infos/update.md": [ title: "Kaisen Linux updates"],
+          "os/What-are-the-revisions-of-the-rolling-version.md": [ title: "Revisions of the rolling version ?"]
+
         ],
         groups_for_extras: [
           "START": Path.wildcard("start/*.md"),
           "TOOLS & PACKAGES": Path.wildcard("tools/*.md"),
           "TUTORIALS": Path.wildcard("tutorials/*.md"),
-          "INFOS": Path.wildcard("infos/*.md")
+          "INFOS": Path.wildcard("infos/*.md"),
+          "OS Informations": Path.wildcard("os/*.md")
 
         ],
 
