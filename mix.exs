@@ -47,7 +47,8 @@ defmodule KaisenDocumentation.MixProject do
           "os/Informations-on-rolling-version.md": [ title: "Informations on rolling version"],
           "os/Why-root-account-is-disabled.md": [ title: "Why root account is disabled by default?"],
           "os/How-to-switch-to-root-directly-with-zsh.md": [ title: "How to switch to root directly with the ZSH terminal?"],
-          "os/How-to-change-graphical-interfae.md": [ title: "How to change graphical interface?"]
+          "os/How-to-change-graphical-interface.md": [ title: "How to change graphical interface?"]
+
 
         ],
         groups_for_extras: [
