@@ -52,7 +52,8 @@ defmodule KaisenDocumentation.MixProject do
           "os/How-to-change-login-wallpaper.md": [ title: "How to change login wallpaper?"],
           "os/Why-create-user-accounts-only-on-home.md": [ title: "Why create user accounts only on /home?"],
           "os/Why-KDE-installed-with-lightdm-by-default.md": [ title: "Why KDE installed with lightdm by default?"],
-          "os/How-to-create-your-own-skel.md": [ title: "How to create your own default profile for user configurations (skel)?"]
+          "os/How-to-create-your-own-skel.md": [ title: "How to create your own default profile for user configurations (skel)?"],
+          "os/How-do-i-go-back-to-bash.md": [ title: "How do I go back to bash?"]
 
 
         ],
