@@ -51,7 +51,8 @@ defmodule KaisenDocumentation.MixProject do
           "os/Update-Kaisen-Linux-Rolling.md": [ title: "Update Kaisen Linux Rolling"],
           "os/How-to-change-login-wallpaper.md": [ title: "How to change login wallpaper?"],
           "os/Why-create-user-accounts-only-on-home.md": [ title: "Why create user accounts only on /home?"],
-          "os/Why-KDE-installed-with-lightdm-by-default.md": [ title: "Why KDE installed with lightdm by default?"]
+          "os/Why-KDE-installed-with-lightdm-by-default.md": [ title: "Why KDE installed with lightdm by default?"],
+          "os/How-to-create-your-own-skel.md": [ title: "How to create your own default profile for user configurations (skel)?"]
 
 
         ],
