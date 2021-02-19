@@ -42,7 +42,8 @@ defmodule KaisenDocumentation.MixProject do
           "os/Why-are-all-additional-services-disabled-by-default.md": [ title: "Why are all additional services disabled by default ?"],
           "os/How-to-build-custom-ISO.md": [ title: "How to build custom ISO ?"],
           "os/Why-no-source-on-some-packages.md": [ title: "Why no sources on some packages ?"],
-          "os/How-to-update-GUI-default-profile.md": [ title: "How to update GUI default profile ?"]
+          "os/How-to-update-GUI-default-profile.md": [ title: "How to update GUI default profile ?"],
+          "os/Informations-on-the-conky-theme.md": [ title: "Informations on the conky theme"]
 
         ],
         groups_for_extras: [
