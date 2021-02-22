@@ -1,6 +1,14 @@
-# Kaisen Documentation
+# README
 
-**TODO: Add description**
+This project is for :
+>Kaisen Linux | Documentation
+
+It's an elixir project build with mix and exdoc.
+
+## Requirements to build the documentation
+
+- erlang
+- elixir
 
 **TODO:**  
 

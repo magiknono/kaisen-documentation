@@ -4,21 +4,21 @@ defmodule KaisenDocumentation.MixProject do
   def project do
     [
       app: :kaisen_documentation,
-      version: "0.1.0",
+      version: "1.5.0",
       elixir: "~> 1.10",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
 
       # Docs
-      name: "Documentation",
+      name: "KaisenLinux",
       homepage_url: "https://kaisenlinux.org/documentation",
       docs: [
-        main: "readme",
+        main: "documentation",
         api_reference: false,
         assets: "priv/assets",
         extra_section: "Guides",
         extras: [
-          "README.md",
+          "documentation.md": [ title: "Kaisen Linux | Documentation"],
           "md/start/links.md": [ title: "Official Kaisen Linux links"],
           "md/start/why.md": [ title: "Why use Kaisen Linux ?"],
           "md/start/usb.md": [ title: "USB creation"],
@@ -60,8 +60,8 @@ defmodule KaisenDocumentation.MixProject do
         groups_for_extras: [
           "START": Path.wildcard("md/start/*.md"),
           "TOOLS & PACKAGES": Path.wildcard("md/tools/*.md"),
-          "TUTORIALS": Path.wildcard("md/tutorials/*.md"),
           "INFOS": Path.wildcard("md/infos/*.md"),
+          "TUTORIALS": Path.wildcard("md/tutorials/*.md"),
           "OS Informations": Path.wildcard("md/os/*.md")
 
         ],
