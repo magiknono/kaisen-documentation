@@ -13,15 +13,18 @@ This project generates static html files in `doc` folder from markdown files in 
 ## How to add a new file to the doc
 
 - Create a markdown file in `md\[category]` folder.
-- There is 5 `[category]` :
-    1. infos
-    2. os
-    3. start
-    4. tools
-    5. tutorials
-- Edit your text with `markdown` syntax [More info](https://guides.github.com/features/mastering-markdown/) and save.
-- Add an entry for your file in `mix.exs` in the `extras` section like:
-`"md/[catgeory]/[name-of-your-file].md": [ title: "Title your want in the menu"]`
+- There is 5 `[category]` folders:
+    - infos
+    - os
+    - start
+    - tools
+    - tutorials
+- Edit your text with `markdown` syntax [More info](https://guides.github.com/features/mastering-markdown/).
+- Save your .md file.
+- Add an entry for your file in `mix.exs` in the `extras` section like:  
+```bash
+"md/[catgeory]/[name-of-your-file].md": [ title: "Title your want in the menu"]
+```
 - save and run `mix docs`
 - html file are updated in `doc` folder. Copy to your webfolder.
 
@@ -36,7 +39,10 @@ You can use the following script to install those tools via asdf manager :
 ```bash
 # you must have a sudo user
 chmod +x install-requirements.sh && ./install-requirements.sh
-# restart your shell and enter the following command to install erlang and elixir via asdf
+```
+
+```bash
+# then restart your shell and enter the following command to install erlang and elixir via asdf
 sudo apt install libssl-dev automake autoconf libncurses5-dev
 asdf plugin add erlang
 asdf plugin add elixir
