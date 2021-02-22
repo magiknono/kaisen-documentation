@@ -32,23 +32,23 @@ The documentation is splitted in 5 GUIDES :
 ## Help Summary 
 
 - Start
-    - [Official Kaisen Linux links]
-    - [Why use Kaisen Linux ?]
-    - [USB creation]
-    - [Hardware requirements],
-    - [Live informations],
-    - [Install OS],
-    - [Using Virtualisation],
-    - [Menu and Tools overview]
+    - Official Kaisen Linux links
+    - Why use Kaisen Linux ?
+    - USB creation
+    - Hardware requirements
+    - Live informations
+    - Install OS
+    - Using Virtualisation
+    - Menu and Tools overview
 - Tools and Packages
-    - [Tools],
-    - [Packages],
-    - [Metapackages],
+    - Tools
+    - Packages
+    - Metapackages
 - Infos
-    - [Kaisen Linux licence],
-    - [Kaisen Linux downloads],
-    - [Kaisen Linux repositories],
-    - [Kaisen Linux updates],
+    - Kaisen Linux licence
+    - Kaisen Linux downloads
+    - Kaisen Linux repositories
+    - Kaisen Linux updates
 - Tutorials
     - Windows bootable USB key
     - Bad sectors analyses
