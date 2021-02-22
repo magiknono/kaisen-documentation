@@ -5,7 +5,7 @@
 # USAGE1 : chmod +x install-asdf.sh && ./install-asdf.sh
 
 # set asdf git url & versions
-asdf_git="https//github.com/asdf-vm/asdf.git
+asdf_git="https//github.com/asdf-vm/asdf.git"
 asdf_version="v0.8.0"
 # requirements on linux
 sudo apt install curl git
