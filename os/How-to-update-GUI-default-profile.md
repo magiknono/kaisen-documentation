@@ -17,4 +17,4 @@ Note, however, that this method is the least simple, but the most refined, it is
 When the kaisen-skeleton package is updated, it means that the default GUI profile has been updated. The kaisen-update-skel command can be used to copy new content from /etc/skel to /home/* and /root.  
 
 ## Profile created in /etc/skel_user
-If you have created your default profile as mentioned [here TO DO ADD LINK](#), you can run the kaisen-update-skel-user command to update your profile on all users present on the system.
+If you have created your default profile as mentioned [here](https://kaisenlinux.org/documentation/how-to-create-your-own-skel), you can run the `kaisen-update-skel-user` command to update your profile on all users present on the system.

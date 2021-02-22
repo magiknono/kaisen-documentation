@@ -4,14 +4,14 @@
 Only download ISO from the official link:
 
 ```bash
-https://kaisenlinux.org/kaisen/downloads
+https://kaisenlinux.org/downloads
 ```
 
 The officials mirrors:
 
 ```bash
 https://iso.kaisenlinux.org
-https://kaisen.lf.je
+https://kaisen.lf.je/index.html
 ```
 
 **Download a Kaisen Linux ISO only via the links mentioned above.**  
@@ -25,7 +25,7 @@ At each release, we publish the checksums in sha256. To check the ISO, proceed a
 
 ```bash
 Use sha256 command => Example: sha256sum kaisenlinuxrolling1.0-amd64.iso => 1843aad731a9c01f3e196e222baa92c8022cb9069fb2b02fb10dcad127d066a8 kaisenlinuxrolling1.0-amd64.iso
-You can verify all ISO checksums at => https://kaisen-linux.org/kaisen/checksums.txt
+You can verify all ISO checksums at => https://kaisenlinux.org/checksums.txt
 ```
 
 ### Windows

@@ -21,11 +21,11 @@ So we have 3 different installation modes:
 - Rescue
 - Expert
 
-The normal mode simply corresponds to the classic process as it is configured in Kaisen Linux thanks to the preseed file (details in the next section).  
+The **normal mode** simply corresponds to the classic process as it is configured in Kaisen Linux thanks to the preseed file (details in the next section).  
 
-The rescue mode allows you to install the system in recovery mode in the event of a problem with an initial installation or in normal mode, he will suggest the use of a shell.. You will usually never have to use it, but if necessary, it can surely help you and solve your problems.  
+The **rescue mode** allows you to install the system in recovery mode in the event of a problem with an initial installation or in normal mode, he will suggest the use of a shell.. You will usually never have to use it, but if necessary, it can surely help you and solve your problems.  
 
-The expert mode will allow you to install your system and customize it even more than with normal mode. It will allow you for example to precisely choose the keyboard model that suits you, for example if you have a particular layout. It also allows you to select certain modules to load from the installation media. Be careful what you do, however. Forgetting an important module could compromise your installation and/or make it unstable.  
+The **expert mode** will allow you to install your system and customize it even more than with normal mode. It will allow you for example to precisely choose the keyboard model that suits you, for example if you have a particular layout. It also allows you to select certain modules to load from the installation media. Be careful what you do, however. Forgetting an important module could compromise your installation and/or make it unstable.  
 
 You will understand, it is a mode made to personalize its installation as well as possible, but can also be difficult to take in hand for a beginner. Use this mode only if you really know what you are doing.  
 Note however that the preseed file and its configurations are taken into account in this mode.  

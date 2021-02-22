@@ -115,9 +115,9 @@ By:
 ${texeci 600 /usr/share/kaisen-kde/conkyfeh}
 ```
 
-Once you have edited the file, copy the `~/.conkyrc` file to for example `~/.conkyrc_custom` and modify the `/etc/xdg/autostart/conky`.desktop file as mentioned [here TO DO ADD LINK](#). When restarting the session, the new congiuration will be loaded.
+Once you have edited the file, copy the `~/.conkyrc` file to for example `~/.conkyrc_custom` and modify the `/etc/xdg/autostart/conky`.desktop file as mentioned [here](#launch-conky-with-a-custom-theme). When restarting the session, the new congiuration will be loaded.
 
-Alternatively, you can disable conky launch if you don't want to reconfigure the conky theme, as shown [here TO DO ADD LINK](#).
+Alternatively, you can disable conky launch if you don't want to reconfigure the conky theme, as shown [here](#disable-conky-launch).
 
 ## Relaunch conky manually
 Sometimes, Conky may not automatically relaunch after a package update. To relaunch it, it is very simple. Open a terminal window, and type this command:  

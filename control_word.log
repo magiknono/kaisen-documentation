@@ -1,0 +1,71 @@
+start/hardware.md:Processor:1 core @1.5GHz (AMD or Intel)
+start/install.md:1. Select the language of the installer, the system and the keyboard
+start/live.md:read start _ <<(du -bcm kaisenlinuxrolling1.5-amd64-MATE.iso | tail -1); echo $start
+start/live.md:read start _ <<(du -bcm kaisenlinuxrolling1.5-amd64-MATE.iso | tail -1); echo $start
+start/usb.md:read start _ <<(du -bcm kaisenlinuxrolling1.5-amd64-MATE.iso | tail -1); echo $start
+start/usb.md:read start _ <<(du -bcm kaisenlinuxrolling1.5-amd64-MATE.iso | tail -1); echo $start
+start/virtualisation.md:1)  New virtual machine
+start/virtualisation.md:13) System => Processor => CPU: 1 core
+start/virtualisation.md:1)  New virtual machine
+start/virtualisation.md:1)  New Vitual Machine
+start/virtualisation.md:11) CPU: 1 core and 1 CPU
+start/virtualisation.md:1)  New Vitual Machine
+start/virtualisation.md:11) CPU: 2 core and 1 CPU
+start/hardware.md:Processor: 2 core @2GHz (AMD or Intel)
+start/hardware.md:Processor: 4 core @2,5GHz (AMD or Intel)
+start/install.md:2. Select your hostname
+start/menu.md:The system tools are mainly remote administration, backup and virtualization (level 2), containerization, automation tools. It is therefore a category purely focused on the administration of Windows and Linux systems. Tools like Ansible, Docker, parallel-ssh, rsync, zsync to name a few are classified into this category and subcategories.
+start/virtualisation.md:2)  Name: Your choice
+start/virtualisation.md:2)  Name: Your choice
+start/virtualisation.md:13) System => Processor => CPU: 2 core
+start/virtualisation.md:2)  Typical
+start/virtualisation.md:2)  Typical
+start/virtualisation.md:11) CPU: 2 core and 1 CPU
+start/install.md:So we have 3 different installation modes:  
+start/install.md:3. Create your user and user password (you have to put password)
+start/install.md:But no matter which assisted partitioning mode you use, on small disks do not use partitioning with the 3 partitions mentioned above, you will have problems.  
+start/live.md:*Charging in RAM: Mode allowing to fully load the squashfs in the RAM memory, allowing to use the live system without keeping the USB key connected. Useful for computers with few USB ports. 8Gb of RAM is recommended to use this mode. The system loaded in RAM consumes 3.5GB to 4GB.
+start/live.md:Error: Partition(s) 3 on /dev/sdb have been written, but we have been unable to inform the kernel of the change, probably because it/they are in use.  As a result, the old partition(s) will remain in use.  You should reboot now before making further changes.
+start/live.md:You should now have 3 partitions on your `/dev/sdb` device.
+start/live.md:Error: Partition(s) 3 on /dev/sdb have been written, but we have been unable to inform the kernel of the change, probably because it/they are in use.  As a result, the old partition(s) will remain in use.  You should reboot now before making further changes.
+start/live.md:You should now have 3 partitions on your `/dev/sdb` device.  
+start/usb.md:Error: Partition(s) 3 on /dev/sdb have been written, but we have been unable to inform the kernel of the change, probably because it/they are in use.  As a result, the old partition(s) will remain in use.  You should reboot now before making further changes.
+start/usb.md:You should now have 3 partitions on your `/dev/sdb` device.  
+start/usb.md:Error: Partition(s) 3 on /dev/sdb have been written, but we have been unable to inform the kernel of the change, probably because it/they are in use.  As a result, the old partition(s) will remain in use.  You should reboot now before making further changes.
+start/usb.md:You should now have 3 partitions on your `/dev/sdb` device.
+start/virtualisation.md:3)  Folder: Your choice
+start/virtualisation.md:3)  Folder: Your choice
+start/virtualisation.md:3)  Use ISO image (select your ISO with browse button)
+start/virtualisation.md:3)  Use ISO image (select your ISO with browse button)
+start/hardware.md:Processor: 4 core @2,5GHz (AMD or Intel)
+start/hardware.md:Kaisen Linux is 100% compatible with computers with a classic BIOS called LEGACY and a UEFI BIOS. The UEFI BIOS is different and more recent than its predecessor and allows disk support for more than 2TB and 255 primary partitions (unlike the LEGACY BIOS which only supported 4 maximum). If your computer is less than 10 years old, you have a 99% chance of having a UEFI BIOS.
+start/install.md:4. After it will ask you to partition your disk. For less advanced users, select assisted partitioning and put the whole system in a single partition
+start/virtualisation.md:4)  Type: Linux
+start/virtualisation.md:4)  Type: Linux
+start/virtualisation.md:4)  Guest Operating System: Debian 10 64 bits
+start/virtualisation.md:4)  Guest Operating System: Debian 10 64 bits
+start/install.md:5. The system will then install
+start/live.md:sudo dd if=kaisenlinuxrolling1.5-amd64-MATE.iso of=/dev/sdb bs=4M
+start/live.md:read start _ <<(du -bcm kaisenlinuxrolling1.5-amd64-MATE.iso | tail -1); echo $start
+start/live.md:sudo dd if=kaisenlinuxrolling1.5-amd64-MATE.iso of=/dev/sdb bs=4M
+start/live.md:read start _ <<(du -bcm kaisenlinuxrolling1.5-amd64-MATE.iso | tail -1); echo $start
+start/usb.md:sudo dd if=kaisenlinuxrolling1.5-amd64-MATE.iso of=/dev/sdb bs=4M
+start/usb.md:read start _ <<(du -bcm kaisenlinuxrolling1.5-amd64-MATE.iso | tail -1); echo $start
+start/usb.md:sudo dd if=kaisenlinuxrolling1.5-amd64-MATE.iso of=/dev/sdb bs=4M
+start/usb.md:read start _ <<(du -bcm kaisenlinuxrolling1.5-amd64-MATE.iso | tail -1); echo $start
+start/virtualisation.md:5)  System: Debian 10 (64 bits)
+start/virtualisation.md:5)  System: Debian 10 (64 bits)
+start/virtualisation.md:5)  Name: Your choice
+start/virtualisation.md:5)  Name: Your choice
+os/How-to-build-custom-ISO.md:sudo ./kaisen-build build CUSTOM 1.0
+os/How-to-build-custom-ISO.md:Version 1.0 is an example, but you can put whatever you want, I advise you not to put too many letters and numbers because if the name of the ISO volume exceeds 32 characters, the compilation will crash. The name of the ISO volume is "Kaisen Linux Rolling $variant $version" ($variant corresponds here to CUSTOM and $version corresponds here to 1.0), in the example, the name of the ISO volume will be Kaisen Linux Rolling CUSTOM 1.0.
+os/How-to-change-graphical-interface.md:The script since Kaisen Linux revision 1.4 is designed when the script starts up (after all checks have been made), to update itself if a new, more recent version of the script (installed by the kaisen-kde package, kaisen-lxde, kaisen-mate, kaisen-xfce depending on your current GUI). This is intended if you do not update often, to be able to change your interface and update the list of packages to uninstall. The main purpose of this is to automate the task even more, saving you time.  
+os/How-to-change-graphical-interface.md:Since revision 1.4, the `kaisen-interface-switcher` script has been corrected to fix some issues that occurred when using the script (eg when using wifi or with wrong proxy settings).  
+os/What-are-the-revisions-of-the-rolling-version.md:Revisions (eg 1.1, 1.2 and so on) are simply a "snapshot" of the project at one point in time.  
+os/What-are-the-revisions-of-the-rolling-version.md:Even if you have downloaded Kaisen Linux 1.3 and installed the system, and ISOS 1.4 has just been released, you don't have to completely reinstall the system, using the kaisen-update command will suffice to change from revision 1.3 to 1.4 by updating the packages.
+os/What-are-the-revisions-of-the-rolling-version.md:Revisions (eg 1.1, 1.2 and so on) are simply a "snapshot" of the project at one point in time.  
+os/What-are-the-revisions-of-the-rolling-version.md:Even if you have downloaded Kaisen Linux 1.3 and installed the system, and ISOS 1.4 has just been released, you don't have to completely reinstall the system, using the kaisen-update command will suffice to change from revision 1.3 to 1.4 by updating the packages.
+os/How-to-change-graphical-interface.md:The script since Kaisen Linux revision 1.4 is designed when the script starts up (after all checks have been made), to update itself if a new, more recent version of the script (installed by the kaisen-kde package, kaisen-lxde, kaisen-mate, kaisen-xfce depending on your current GUI). This is intended if you do not update often, to be able to change your interface and update the list of packages to uninstall. The main purpose of this is to automate the task even more, saving you time.  
+os/How-to-change-graphical-interface.md:Since revision 1.4, the `kaisen-interface-switcher` script has been corrected to fix some issues that occurred when using the script (eg when using wifi or with wrong proxy settings).  
+os/What-are-the-revisions-of-the-rolling-version.md:Even if you have downloaded Kaisen Linux 1.3 and installed the system, and ISOS 1.4 has just been released, you don't have to completely reinstall the system, using the kaisen-update command will suffice to change from revision 1.3 to 1.4 by updating the packages.
+tutorials/Windows-bootable-USB-key.md:However, there are 2 prerequisites.  

@@ -1,20 +1,31 @@
 # Official Kaisen Linux links
 
-This section lists all existing official links for the project.  
+This section lists all existing official links for the project.    
 **If other links exist but are not referenced here, consider that they are not official.**
 
 ## Official domains [NEW]
 
 - Website: https://kaisenlinux.org  
-- Blog: https://blog.kaisenlinux.org  
-- Documentation: https://docs.kaisenlinux.org  
-- Manpages: https://manpages.kaisenlinux.org  
+- Blog: https://kaisenlinux.org/blog  
+- Documentation: https://kaisenlinux.org/documentation  
+- Manpages: https://kaisenlinux.org/manpages  
+
+## Official domains [OLD]
+
+- Website: https://kaisen-linux.org
+- Blog: https://blog.kaisen-linux.org
+- Documentation: https://docs.kaisen-linux.org
+- Manpages: https://manpages.kaisen-linux.org
 
 ## Officials ISO downloads mirrors [NEW]
 
 - Official mirror: https://iso.kaisenlinux.org
 
-- Alternative mirror: https://kaisen.lf.je
+- Alternative mirror: https://kaisen.lf.je/index.html
+
+## Officials ISO downloads mirrors [OLD]
+
+- Old official mirror: https://iso.kaisen-linux.org
 
 ## APT repositories [NEW]
 
@@ -29,6 +40,18 @@ deb-src https://deb/kaisenlinux.org/kaisen kaisen-devel main contrib non-free
 deb-src https://deb.kaisenlinux.org/kaisen kaisen-packages main contrib non-free
 deb-src https://deb.kaisenlinux.org/kaisen kaisen-testing main contrib non-free
 deb-src https://deb.kaisenlinux.org/kaisen kaisen-rolling-snapshot main contrib non-free
+```
+## APT repositories [OLD]
+
+```bash
+deb https://kaisendeb.lf.je/kaisen kaisen-rolling main contrib non-free
+deb https://kaisendeb.lf.je/kaisen kaisen-devel main contrib non-free
+deb https://kaisendeb.lf.je/kaisen kaisen-packages main contrib non-free
+deb https://kaisendeb.lf.je/kaisen kaisen-testing main contrib non-free
+deb-src https://kaisendeb.lf.je/kaisen kaisen-rolling main contrib non-free
+deb-src https://kaisendeb.lf.je/kaisen kaisen-devel main contrib non-free
+deb-src https://kaisendeb.lf.je/kaisen kaisen-packages main contrib non-free
+deb-src https://kaisendeb.lf.je/kaisen kaisen-testing main contrib non-free
 ```
 
 ## Social medias
@@ -45,4 +68,4 @@ deb-src https://deb.kaisenlinux.org/kaisen kaisen-rolling-snapshot main contrib 
 ## Support and discussions
 
 - Mail support: support@kaisen-linux.org
-- Forum : soon
+- Forum : https://forum.kaisenlinux.org

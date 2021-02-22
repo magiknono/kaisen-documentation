@@ -71,7 +71,7 @@ Please be aware that **we will not provide support to users wishing to create th
 ### Warning on personal images
 
 One of the strengths of the GNU/Linux world, which we follow to give our users the choice to do what they want with the environment we provide them so that they can adapt it to their needs, is also a problem because the integration of malware, trackers or others can be facilitated.  
-To avoid this kind of inconvenience, do not download an ISO image outside the following two mirrors: https://iso.kaisen-linux.org and https://kaisen.lf.je  
+To avoid this kind of inconvenience, do not download an ISO image outside the following two mirrors: https://iso.kaisenlinux.org and https://kaisen.lf.je/index.html  
 Also check the SHA256 checksums indicated on the official website.
 So keep your images created by yourself for yourself, and do not use ISOS images whose origin thereof is not a certainty (check the checksums on the site to be sure).
 

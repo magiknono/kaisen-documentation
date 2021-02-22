@@ -1,6 +1,6 @@
 # Kaisen Linux repositories
 
-## Liste des référentiels
+## Referential lists
 
 ### kaisen-rolling
 This repository is the official Kaisen Linux repository. It is updated directly from the Debian testing repository continuously, the mirror is updated every 6 hours.  

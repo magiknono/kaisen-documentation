@@ -5,18 +5,27 @@
 - Password: kaisen
 
 ## Live languages
-- You can using French with azerty keyboard. This language can be chosen by the entry Kaisen Linux Rolling Live (Français) => once you have started on your DVD or bootable USB key.
-- You can using English with qwerty (US disposition) keyboard. This language can be chosen by the entry Kaisen Linux Rolling Live (English) => once you have started on your DVD or bootable USB key.
-- You can using Spain with qwerty (Spain disposition) keyboard. This language can be chosen by the entry Kaisen Linux Rolling Live (Espanol) => once you have started on your DVD or bootable USB key.
-- You can using Portugal with qwerty (Portugal disposition). This language can be chosen by the entry Kaisen Linux Rolling Live (Portugues) => once you have started on your DVD or bootable USB key.
-- You can using Italian with qwerty (Italian disposition). This language can be chosen by the entry Kaisen Linux Rolling Live (Italiano) => once you have started on your DVD or bootable USB key.
-- You can using Deutsch with qwertz (Deutsch disposition). This language can be chosen by the entry Kaisen Linux Rolling Live (Deutsche) => once you have started on your DVD or bootable USB key.  
+- You can using **French** with **azerty** keyboard. This language can be chosen by the entry **Kaisen Linux Rolling Live (Français)** => once you have started on your DVD or bootable USB key.
+- You can using **English** with **qwerty** (US disposition) keyboard. This language can be chosen by the entry **Kaisen Linux Rolling Live (English)** => once you have started on your DVD or bootable USB key.
+- You can using **Spain** with qwerty (Spain disposition) keyboard. This language can be chosen by the entry **Kaisen Linux Rolling Live (Espanol)** => once you have started on your DVD or bootable USB key.
+- You can using **Portugal** with qwerty (Portugal disposition). This language can be chosen by the entry **Kaisen Linux Rolling Live (Portugues)** => once you have started on your DVD or bootable USB key.
+- You can using **Italian** with qwerty (Italian disposition). This language can be chosen by the entry **Kaisen Linux Rolling Live (Italiano)** => once you have started on your DVD or bootable USB key.
+- You can using **Deutsch** with **qwertz** (Deutsch disposition). This language can be chosen by the entry **Kaisen Linux Rolling Live (Deutsche)** => once you have started on your DVD or bootable USB key.  
 
-If your keyboard is neither azerty, qwerty or qwertz of the variants mentioned above, select the language on which to start the live and once on the live, in the terminal, type the command setxkbmap your_keyboard
-For example, for the russian keyboard, the command will be setxkbmap ru
+If your keyboard is neither azerty, qwerty or qwertz of the variants mentioned above, select the language on which to start the live and once on the live, in the terminal, type the command `setxkbmap your_keyboard`
+For example, for the russian keyboard, the command will be `setxkbmap ru`
 
 ## Live options
 Kaisen Linux live has several options:
+
+- Default
+- Failsafe mode
+- Persistence
+- Encrypted persistence
+- Forensic mode
+- Charging in RAM
+- Charging in RAM (failsafe)
+- Charging in RAM (forensic)
 
 ```bash
 *Default: Simple start in live mode without special options.
