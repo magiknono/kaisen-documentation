@@ -10,13 +10,13 @@ defmodule KaisenDocumentation.MixProject do
       deps: deps(),
 
       # Docs
-      name: "docs",
-      homepage_url: "https://docs.kaisenlinux.org",
+      name: "Documentation",
+      homepage_url: "https://kaisenlinux.org/documentation",
       docs: [
         main: "readme",
         api_reference: false,
         assets: "priv/assets",
-        extra_section: "Guide",
+        extra_section: "Guides",
         extras: [
           "README.md",
           "start/links.md": [ title: "Official Kaisen Linux links"],
