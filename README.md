@@ -16,8 +16,9 @@ This project generates static html files in `doc` folder from markdown files in 
 - There is 5 `[category]` :
     1. infos
     2. os
-    3. tools
-    4. tutorials
+    3. start
+    4. tools
+    5. tutorials
 - Edit your text with `markdown` syntax [More info](https://guides.github.com/features/mastering-markdown/) and save.
 - Add an entry for your file in `mix.exs` in the `extras` section like:
 `"md/[catgeory]/[name-of-your-file].md": [ title: "Title your want in the menu"]`
