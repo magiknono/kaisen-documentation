@@ -7,8 +7,9 @@
 # set asdf git url & versions
 asdf_git="https//github.com/asdf-vm/asdf.git"
 asdf_version="v0.8.0"
-# requirements on linux
-sudo apt install curl git
+# requirements on linux (git or minimal with git-core)
+sudo apt install curl git libssl-dev automake autoconf libncurses5-dev make gcc unzip 
+
 # clone the latest branch via git
 git clone $asdf_git ~/.asdf --branch $asdf_version
 # add to your shell
