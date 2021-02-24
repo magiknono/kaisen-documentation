@@ -13,12 +13,12 @@ defmodule KaisenDocumentation.MixProject do
       name: "KaisenLinux",
       homepage_url: "https://kaisenlinux.org/documentation/",
       docs: [
-        main: "documentation",
+        main: "md/documentation",
         api_reference: false,
         assets: "priv/assets",
         extra_section: "Guides",
         extras: [
-          "documentation.md": [ title: "Kaisen Linux | Documentation"],
+          "md/documentation.md": [ title: "Kaisen Linux | Documentation"],
           "md/start/links.md": [ title: "Official Kaisen Linux links"],
           "md/start/why.md": [ title: "Why use Kaisen Linux ?"],
           "md/start/usb.md": [ title: "USB creation"],
