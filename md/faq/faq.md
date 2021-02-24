@@ -32,7 +32,7 @@ When switching to a "new version", the base-files package is updated and the / e
 New ISOS are therefore created with each revision to fix any errors on the live system, improvements on the start-up entries, support for a new language, integration of new tools integrated over time on the live etc ...  
 Even if you have downloaded Kaisen Linux 1.3 and installed the system, and ISOS 1.4 has just been released, you don't have to completely reinstall the system, using the kaisen-update command will suffice to change from revision 1.3 to 1.4 by updating the packages.
 
---
+---
 ## Why are all additional services disabled by default ?
 
 ### Explanation
@@ -47,7 +47,7 @@ So we have to list these services, as well as to facilitate their management (ac
 If you therefore have an error telling you that the service is not indicated or certain programs (TeamViewer for example) start but are not functional, try to activate the service corresponding to this program (via the menu or simply by typing yourself systemd commands).
 If that doesn't solve your problem, contact support.
 
---
+---
 ## How to build a custom ISO ?
 
 ### kaisen-build
@@ -136,7 +136,8 @@ sudo apt remove --purge kaisen-build
 
 You will just have to reinstall the package and you will be on the last pre-configuration of the CUSTOM branch.  
 Be careful, this action will delete your settings from the CUSTOM branch (even the automated backups, so that they are not reapplied when the package is reinstalled). Be sure what you are doing, manually save your settings beforehand if you want to keep your settings.
---
+
+---
 ## Why no sources on some packages ?
 
 ### Softwares non-free
@@ -150,7 +151,7 @@ The safest and most efficient way to check the authenticity of the sourceless pa
 You can find the .deb files added for Kaisen Linux and the sha256, md5, and sha1 checksums of these packages (this also includes packages developed for distribution as well as packages recompiled for distribution) [here](https://kaisendeb.lf.je/dists/kaisen-devel/main/binary-amd64/Packages):  
 https://kaisendeb.lf.je/dists/kaisen-devel/main/binary-amd64/Packages
 
---
+---
 ## How to update GUI default profile ?
 
 ### In what cases?
@@ -172,7 +173,7 @@ When the kaisen-skeleton package is updated, it means that the default GUI profi
 ### Profile created in /etc/skel_user
 If you have created your default profile as mentioned [here](https://kaisenlinux.org/documentation/how-to-create-your-own-skel), you can run the `kaisen-update-skel-user` command to update your profile on all users present on the system.
 
---
+---
 ## Informations on the conky theme
 
 ### How is conky installed?
@@ -302,7 +303,7 @@ conky&
 ```
 Next this command, press `ctrl +D` until closing the terminal. Conky is now relaunched.
 
---
+---
 ## How do I know the number of the rolling version I use?
 
 ### With "cat" method
@@ -312,7 +313,7 @@ Just do the command `cat /etc/debian_version` and read the number marked after R
 Just do the command `lsb_release -r` and read the number marked after Release to know your version number. 
 The `lsb-release -a` command give more informations at release.
 
---
+---
 ## Why root account is disabled by default ?
 
 ### The disable explanation
@@ -338,7 +339,7 @@ Using the root account from a graphical session is unnecessary, dangerous and st
 Use sudo when you need root.  
 Log in as root with the `sudo su -`, `sudo -i`, and su command (su command only works if you have set a root password with the passwd root command).
 
---
+---
 ## How to switch to root directly with the ZSH terminal ?
 
 ### Explanation
@@ -351,7 +352,7 @@ To go directly to a root terminal, type the following command:
 sudo zsh
 ```
 
---
+---
 ## How to change graphical interface ?
 
 ### To do what?
@@ -382,7 +383,7 @@ The directories will be saved in `/usr/share/kaisen-interface-switcher/$users/IN
 The selected interface will be installed after uninstalling the initial interface.  
 Once the installation is complete, if automatic backups of the interface installed by the script exist in the dedicated directory, they will be copied to the users present on the system. In the event of an error (a user has been deleted in the meantime, as well as his home directory, or other reason), the content of the `/etc/skel` folder will be copied (only where it failed, if possible).
 
---
+---
 ## Update Kaisen Linux Rolling
 
 ### Classic method
@@ -405,7 +406,7 @@ To use the Kaisen method, you must type this command:
 sudo kaisen-update
 ```
 
---
+---
 ## How to change login wallpaper ?
 
 ### Text edition method
@@ -460,7 +461,7 @@ font-name = Cantarell 11
 ### Graphic method
 The **lightdm-gtk-greeter-settings** tool is integrated by default on MATE, LXDE, XFCE and KDE to be able to easily change the lightdm settings. This will produce the same result as editing the `/etc/lightdm/lightdm-gtk-greeter.conf` file as the software will modify it to reflect your settings made.
 
---
+---
 ## Why create user accounts only on /home ?
 
 ### Explanation
@@ -469,7 +470,7 @@ On Kaisen Linux, this convention as on all distributions respecting the standard
 The kaisen-update-skel scripts as well as the kaisen-interface-switcher, were developed to read with awk all users who have a home directory in a directory in / home via the /etc/passwd file. If you do not respect this standard and are led to use one of these scripts, they will not work normally if at all.  
 I am aware that I cannot cover all cases, I try to do it as much as possible, however this kind of scripts can only work correctly by respecting the standards, to avoid any additional problems.  
 
---
+---
 ## Why KDE installed with lightdm by default ?
 
 ### Explanation
@@ -484,7 +485,7 @@ The universal and potentially error-prone method is to modify the `/etc/X11/defa
 ### Debian method
 You just have to use the `sudo dpkg-reconfigure lightdm` command and select SDDM. This reconfiguration will be visible the next time you restart the computer. I advice this method, because is less error-prone.
 
---
+---
 ## How to create your own default profile for user configurations (skel) ?
 
 ### What is that?
@@ -535,7 +536,7 @@ SKEL=/etc/skel_user
 With this change, the default folder for the skel will now be `/etc/skel_user`.
 When updating the shadow package, select the option "N" or "O" to keep your configurations.
 
---
+---
 ## How do I go back to bash ?
 
 ### Simple user method
