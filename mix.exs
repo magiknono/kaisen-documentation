@@ -55,7 +55,7 @@ defmodule KaisenDocumentation.MixProject do
          # "md/os/Why-KDE-installed-with-lightdm-by-default.md": [ title: "Why KDE installed with lightdm by default?"],
          # "md/os/How-to-create-your-own-skel.md": [ title: "How to create your own default profile for user configurations (skel)?"],
          # "md/os/How-do-i-go-back-to-bash.md": [ title: "How do I go back to bash?"]
-           "md/faq/faq.md": [title: "FAQ" ]
+           "md/faq/faq.md": [title: "Frequently asked Questions" ]
 
         ],
         groups_for_extras: [
