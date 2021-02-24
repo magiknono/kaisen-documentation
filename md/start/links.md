@@ -65,7 +65,7 @@ deb-src https://kaisendeb.lf.je/kaisen kaisen-testing main contrib non-free
 - GitLab (rolling version): https://gitlab.com/kaisenlinux
 - GitLab mirror GitHub (rolling version): https://github.com/kaisenlinux
 
-## Support and discussions
+## Feedback and discussions
 
-- Mail support: support@kaisenlinux.org
+- Feedback & contact: contact@kaisenlinux.org
 - Forum : https://forum.kaisenlinux.org
