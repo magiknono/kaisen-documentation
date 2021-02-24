@@ -39,23 +39,23 @@ defmodule KaisenDocumentation.MixProject do
           "md/infos/download.md": [ title: "Kaisen Linux downloads"],
           "md/infos/repo.md": [ title: "Kaisen Linux repositories"],
           "md/infos/update.md": [ title: "Kaisen Linux updates"],
-          "md/os/What-are-the-revisions-of-the-rolling-version.md": [ title: "Revisions of the rolling version ?"],
-          "md/os/Why-are-all-additional-services-disabled-by-default.md": [ title: "Why are all additional services disabled by default ?"],
-          "md/os/How-to-build-custom-ISO.md": [ title: "How to build custom ISO ?"],
-          "md/os/Why-no-source-on-some-packages.md": [ title: "Why no sources on some packages ?"],
-          "md/os/How-to-update-GUI-default-profile.md": [ title: "How to update GUI default profile ?"],
-          "md/os/Informations-on-the-conky-theme.md": [ title: "Informations on the conky theme"],
-          "md/os/Informations-on-rolling-version.md": [ title: "Informations on rolling version"],
-          "md/os/Why-root-account-is-disabled.md": [ title: "Why root account is disabled by default?"],
-          "md/os/How-to-switch-to-root-directly-with-zsh.md": [ title: "How to switch to root directly with the ZSH terminal?"],
-          "md/os/How-to-change-graphical-interface.md": [ title: "How to change graphical interface?"],
-          "md/os/Update-Kaisen-Linux-Rolling.md": [ title: "Update Kaisen Linux Rolling"],
-          "md/os/How-to-change-login-wallpaper.md": [ title: "How to change login wallpaper?"],
-          "md/os/Why-create-user-accounts-only-on-home.md": [ title: "Why create user accounts only on /home?"],
-          "md/os/Why-KDE-installed-with-lightdm-by-default.md": [ title: "Why KDE installed with lightdm by default?"],
-          "md/os/How-to-create-your-own-skel.md": [ title: "How to create your own default profile for user configurations (skel)?"],
-          "md/os/How-do-i-go-back-to-bash.md": [ title: "How do I go back to bash?"]
-
+         # "md/os/What-are-the-revisions-of-the-rolling-version.md": [ title: "Revisions of the rolling version ?"],
+         # "md/os/Why-are-all-additional-services-disabled-by-default.md": [ title: "Why are all additional services disabled by default ?"],
+         # "md/os/How-to-build-custom-ISO.md": [ title: "How to build custom ISO ?"],
+         # "md/os/Why-no-source-on-some-packages.md": [ title: "Why no sources on some packages ?"],
+         # "md/os/How-to-update-GUI-default-profile.md": [ title: "How to update GUI default profile ?"],
+         # "md/os/Informations-on-the-conky-theme.md": [ title: "Informations on the conky theme"],
+         # "md/os/Informations-on-rolling-version.md": [ title: "Informations on rolling version"],
+         # "md/os/Why-root-account-is-disabled.md": [ title: "Why root account is disabled by default?"],
+         # "md/os/How-to-switch-to-root-directly-with-zsh.md": [ title: "How to switch to root directly with the ZSH terminal?"],
+         # "md/os/How-to-change-graphical-interface.md": [ title: "How to change graphical interface?"],
+         # "md/os/Update-Kaisen-Linux-Rolling.md": [ title: "Update Kaisen Linux Rolling"],
+         # "md/os/How-to-change-login-wallpaper.md": [ title: "How to change login wallpaper?"],
+         # "md/os/Why-create-user-accounts-only-on-home.md": [ title: "Why create user accounts only on /home?"],
+         # "md/os/Why-KDE-installed-with-lightdm-by-default.md": [ title: "Why KDE installed with lightdm by default?"],
+         # "md/os/How-to-create-your-own-skel.md": [ title: "How to create your own default profile for user configurations (skel)?"],
+         # "md/os/How-do-i-go-back-to-bash.md": [ title: "How do I go back to bash?"]
+           "md/faq/faq.md": [title: "FAQ" ]
 
         ],
         groups_for_extras: [
@@ -64,7 +64,7 @@ defmodule KaisenDocumentation.MixProject do
           "INFOS": Path.wildcard("md/infos/*.md"),
           "TUTORIALS": Path.wildcard("md/tutorials/*.md"),
           "FAQ": Path.wildcard("md/faq/faq.md")
-          # only one file is read for faq
+          # only one file is read for faq category
 
         ],
 
