@@ -22,7 +22,7 @@ echo ". $HOME/.asdf/completions/asdf.bash" >> ~/.bashrc
 else
 # asdf zsh
 echo ". $HOME/.asdf/asdf.sh" >> ~/.zshrc
-# autocompletions or use ohmyzsh asdf plugins
+# autocompletions or use ohmyzsh : update ~/.zshrc and add plugins asdf
 fpath=(${ASDF_DIR}/completions $fpath)
 autoload -Uz compinit
 compinit
