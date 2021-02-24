@@ -15,6 +15,7 @@ defmodule KaisenDocumentation.MixProject do
       docs: [
         main: "md/documentation",
         api_reference: false,
+        logo: "priv/assets/kaisen-logo.jpg",
         assets: "priv/assets",
         extra_section: "Guides",
         extras: [
