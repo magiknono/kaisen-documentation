@@ -17,8 +17,8 @@ Since 1.5, Kaisen Linux is a rolling release based on debian testing.
 2. Launch it in a VM
 3. Boot on the live mode or install Kaisen Linux
 4. Explore and test sysadmin tools
-5. Read Kaisen Linux documentation or Kaisen Linux manpages for help
-6. Join our community forum ;-)
+5. Read Kaisen Linux documentation or [Kaisen Linux manpages](https://kaisenlinux.org/manpages/) for help
+6. Join our [community forum](https://forum.kaisenlinux.org/) ;-)
 
 ## Documentation guides
 
