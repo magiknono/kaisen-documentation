@@ -6,9 +6,9 @@ This section lists all existing official links for the project.
 ## Official domains [NEW]
 
 - Website: https://kaisenlinux.org  
-- Blog: https://kaisenlinux.org/blog  
-- Documentation: https://kaisenlinux.org/documentation  
-- Manpages: https://kaisenlinux.org/manpages  
+- Blog: https://kaisenlinux.org/blog/  
+- Documentation: https://kaisenlinux.org/documentation/  
+- Manpages: https://kaisenlinux.org/manpages/  
 
 ## Official domains [OLD]
 
@@ -67,5 +67,5 @@ deb-src https://kaisendeb.lf.je/kaisen kaisen-testing main contrib non-free
 
 ## Support and discussions
 
-- Mail support: support@kaisen-linux.org
+- Mail support: support@kaisenlinux.org
 - Forum : https://forum.kaisenlinux.org
