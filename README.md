@@ -15,7 +15,7 @@ This project generates static html files in `doc` folder from markdown files in 
 - Create a markdown file in `md\[category]` folder.
 - There is 5 `[category]` folders:
     - infos
-    - os
+    - faq
     - start
     - tools
     - tutorials
@@ -28,6 +28,7 @@ This project generates static html files in `doc` folder from markdown files in 
 - save and run `mix docs`
 - html file are updated in `doc` folder. Copy to your webfolder.
 
+- index is called documentation.md in md directory
 ## Requirements to build the documentation
 
 - git
@@ -43,11 +44,10 @@ chmod +x install-requirements.sh && ./install-requirements.sh
 
 ```bash
 # then restart your shell and enter the following command to install erlang and elixir via asdf
-sudo apt install libssl-dev automake autoconf libncurses5-dev
 asdf plugin add erlang
 asdf plugin add elixir
 asdf install erlang latest
-asf install elixir 1.10.4-otp-22 # no opt needed but maybe later
+asdf install elixir latest
 ```
 
 
