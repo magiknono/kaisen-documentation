@@ -36,7 +36,7 @@ The documentation is splitted in 5 GUIDES on the left menu bar:
     - [Why use Kaisen Linux ?](https://kaisenlinux.org/documentation/why)
     - [USB creation](https://kaisenlinux.org/documentation/usb)
     - [Hardware requirements](https://kaisenlinux.org/documentation/hardware)
-    - [Live informations](https://kaisenlinux.org/documentation/live.)
+    - [Live informations](https://kaisenlinux.org/documentation/live)
     - [Install OS](https://kaisenlinux.org/documentation/install)
     - [Using Virtualisation](https://kaisenlinux.org/documentation/virtualisation)
     - [Menu and Tools overview](https://kaisenlinux.org/documentation/menu)
