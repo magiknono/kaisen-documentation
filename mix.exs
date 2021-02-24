@@ -11,7 +11,7 @@ defmodule KaisenDocumentation.MixProject do
 
       # Docs
       name: "KaisenLinux",
-      homepage_url: "https://kaisenlinux.org/documentation",
+      homepage_url: "https://kaisenlinux.org/documentation/",
       docs: [
         main: "documentation",
         api_reference: false,
@@ -62,7 +62,7 @@ defmodule KaisenDocumentation.MixProject do
           "TOOLS & PACKAGES": Path.wildcard("md/tools/*.md"),
           "INFOS": Path.wildcard("md/infos/*.md"),
           "TUTORIALS": Path.wildcard("md/tutorials/*.md"),
-          "OS Informations": Path.wildcard("md/os/*.md")
+          "FAQ": Path.wildcard("md/os/*.md")
 
         ],
 
