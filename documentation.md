@@ -22,52 +22,52 @@ Since 1.5, Kaisen Linux is a rolling release based on debian testing.
 
 ## Documentation guides
 
-The documentation is splitted in 5 GUIDES :
+The documentation is splitted in 5 GUIDES on the left menu bar:
 - START
 - TOOLS & PACKAGES
 - INFOS
 - TUTORIALS
-- OS INFORMATIONS
+- FAQ
 
 ## Help Summary 
 
 - Start
-    - Official Kaisen Linux links
-    - Why use Kaisen Linux ?
-    - USB creation
-    - Hardware requirements
-    - Live informations
-    - Install OS
-    - Using Virtualisation
-    - Menu and Tools overview
+    - [Official Kaisen Linux links](https://kaisenlinux.org/documentation/links)
+    - [Why use Kaisen Linux ?](https://kaisenlinux.org/documentation/why)
+    - [USB creation](https://kaisenlinux.org/documentation/usb)
+    - [Hardware requirements](https://kaisenlinux.org/documentation/hardware)
+    - [Live informations](https://kaisenlinux.org/documentation/live.)
+    - [Install OS](https://kaisenlinux.org/documentation/install)
+    - [Using Virtualisation](https://kaisenlinux.org/documentation/virtualisation)
+    - [Menu and Tools overview](https://kaisenlinux.org/documentation/menu)
 - Tools and Packages
-    - Tools
-    - Packages
-    - Metapackages
+    - [Tools](https://kaisenlinux.org/documentation/tools)
+    - [Packages](https://kaisenlinux.org/documentation/packages)
+    - [Metapackages](https://kaisenlinux.org/documentation/metapackages)
 - Infos
-    - Kaisen Linux licence
-    - Kaisen Linux downloads
-    - Kaisen Linux repositories
-    - Kaisen Linux updates
+    - [Kaisen Linux licence](https://kaisenlinux.org/documentation/licence)
+    - [Kaisen Linux downloads](https://kaisenlinux.org/documentation/download)
+    - [Kaisen Linux repositories](https://kaisenlinux.org/documentation/repo)
+    - [Kaisen Linux updates](https://kaisenlinux.org/documentation/update)
 - Tutorials
-    - Windows bootable USB key
-    - Bad sectors analyses
-    - Repair GRUB
-    - Kaisen Terminal shortcuts
-- OS Informations        
-    - Revisions of the rolling version ?
-    - Why are all additional services disabled by default ?
-    - How to build custom ISO ?
-    - Why no sources on some packages ?
-    - How to update GUI default profile ?
-    - Informations on the conky theme
-    - Informations on rolling version
-    - Why root account is disabled by default?
-    - How to switch to root directly with the ZSH terminal?
-    - How to change graphical interface?
-    - Update Kaisen Linux Rolling
-    - How to change login wallpaper?
-    - Why create user accounts only on /home?
-    - Why KDE installed with lightdm by default?
-    - How to create your own default profile for user configurations (skel)?
-    - How do I go back to bash?
+    - [Windows bootable USB key](https://kaisenlinux.org/documentation/windows-bootable-usb-key)
+    - [Bad sectors analyses](https://kaisenlinux.org/documentation/bad-sectors-analyses)
+    - [Repair GRUB](https://kaisenlinux.org/documentation/grub-repair)
+    - [Kaisen Terminal shortcuts](https://kaisenlinux.org/documentation/terminal-shortcuts)
+- FAQ        
+    - [What are the revisions of the rolling version ?](#what-are-the-revisions-of-the-rolling-version)
+    - [Why are all additional services disabled by default ?](#why-are-all-additional-services-disabled-by-default)
+    - [How to build a custom ISO ?](#how-to-build-a-custom-iso)
+    - [Why no sources on some packages ?](#why-no-sources-on-some-packages)
+    - [How to update GUI default profile ?](#how-to-update-gui-default-profile)
+    - [Informations on the conky theme](#informations-on-the-conky-theme)
+    - [Informations on the rolling version](#how-do-i-know-the-number-of-the-rolling-version-i-use)
+    - [Why root account is disabled by default ?](#why-root-account-is-disabled-by-default)
+    - [How to switch to root directly with the ZSH terminal ?](#how-to-switch-to-root-directly-with-the-zsh-terminal)
+    - [How to change the graphical interface ?](#how-to-change-graphical-interface)
+    - [How to update Kaisen Linux Rolling ?](#update-kaisen-linux-rolling)
+    - [How to change login wallpaper ?](#how-to-change-login-wallpaper)
+    - [Why create user accounts only on /home ?](#why-create-user-accounts-only-on-home)
+    - [Why KDE installed with lightdm by default ?](#why-kde-installed-with-lightdm-by-default)
+    - [How to create your own default profile for user configurations (skel) ?](#how-to-create-your-own-default-profile-for-user-configurations-skel)
+    - [How do I go back to bash ?](#how-do-i-go-back-to-bash)

@@ -1,4 +1,4 @@
-# Kaisen linux | FAQ
+# FAQ
 
 - **FAQ** :       
     - [What are the revisions of the rolling version ?](#what-are-the-revisions-of-the-rolling-version)
