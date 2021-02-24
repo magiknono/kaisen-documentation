@@ -62,7 +62,7 @@ defmodule KaisenDocumentation.MixProject do
           "TOOLS & PACKAGES": Path.wildcard("md/tools/*.md"),
           "INFOS": Path.wildcard("md/infos/*.md"),
           "TUTORIALS": Path.wildcard("md/tutorials/*.md"),
-          "FAQ": Path.wildcard("md/os/*.md")
+          "FAQ": Path.wildcard("md/faq/*.md")
 
         ],
 
